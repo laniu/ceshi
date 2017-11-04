@@ -1,0 +1,112 @@
+body {
+    background: #f1f1f1;
+}
+
+.wanda {
+    padding: 4%;
+}
+
+.list {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.05rem;
+    padding: 3%;
+}
+
+.list>div {
+    position: relative;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.list>div>i {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.list>div p {
+    display: flex;
+    align-items: center;
+}
+
+.ban-list {
+    position: relative;
+    font-size: 0;
+    padding-bottom: 0.1rem;
+}
+
+.ban-list .corner_1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+}
+
+.ban-list p {
+    height: 0.7rem;
+    line-height: 0.3rem;
+    color: #fff;
+    background: rgba(0, 6, 37, .73);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 4%;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem; 
+}
+
+.ban-list p i {
+    font-size: 0.18rem;
+}
+
+.sm-list {
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.1rem 0;
+    height: 1rem;
+}
+
+.sm-list p {
+    float: left;
+    font-size: 0.14rem;
+    width: calc(100% - 0.9rem);
+    height: 0.8rem;
+    vertical-align: middle;
+}
+
+.sm-list p i {
+    color: #333;
+}
+
+
+.sm-list span {
+    background: url('../images/1.jpg');
+    height: 0.8rem;
+    width: 0.8rem;
+    position: relative;
+    overflow: hidden;
+    background-position: 50%;
+    background-size: cover;
+    margin: 0 0 0.1rem 0.1rem;
+    float: right;
+}
+
+.sm-list span img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0.4rem;
+}
+
+.sm-list:last-child {
+    border-bottom: none;
+}
+
+.fixed {
+    position: fixed;
+    right: 4%;
+    bottom: 0.5rem;
+    width: 0.76rem;
+    height: 1rem;
+}
+

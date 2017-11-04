@@ -1,0 +1,66 @@
+.wanda-page {
+    padding: 0 4%;
+    position: relative;
+}
+
+.wanda-page h1 {
+    font-size: 0.26rem;
+    font-weight: 400;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.wanda-page>p {
+    font-size: 0.16rem;
+    padding: 0.1rem 0;
+    color: #868686;
+}
+
+.wanda-page p span {
+    padding-left: 0.3rem;
+}
+
+.wanda-page img {
+    margin: 0.2rem 0;
+}
+
+.wanda-page h2 {
+    font-size: 0.2rem;
+    text-align: center;
+}
+
+.wanda-page h2 span {
+    color: #ea5514;
+    display: inline-block;
+    background: url('../images/h_corner.png') no-repeat right top;
+    padding: 0.2rem;
+    background-size: 0.4rem 0.4rem;
+}
+
+.page_list {
+    margin-bottom: 0.5rem;
+}
+
+.page_list p {
+    text-align: center;
+    font-size: 0.18rem;
+    color: #333;
+    line-height: 0.4rem;
+}
+
+.page_list img {
+    margin-bottom: 0;
+}
+
+.page_list:nth-last-child(2) {
+    margin-bottom: 1rem;
+}
+
+.fixed {
+    position: fixed;
+    right: 4%;
+    bottom: 0.5rem;
+    width: 0.76rem;
+    height: 1rem;
+}
+
